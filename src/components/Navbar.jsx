@@ -76,12 +76,12 @@ const Navbar = () => {
                     <NavItems toggleMenu={toggleMenu} />
                 </div>
 
-                <div className="hidden md:block relative cursor-pointer">
+                {/* <div className="hidden md:block relative cursor-pointer">
                     <FaShoppingBag className="text-xl" />
                     <sup className="absolute top-0 -right-3 bg-primary text-white rounded-full w-5 h-5 flex items-center justify-center text-xs">
                         {cartCount}
                     </sup>
-                </div>
+                </div> */}
             </nav>
         </header>
     );
