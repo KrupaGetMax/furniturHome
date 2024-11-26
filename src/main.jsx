@@ -1,46 +1,49 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './App.jsx';
+import './index.css';
 
 import {
   createBrowserRouter,
   RouterProvider,
-} from "react-router-dom";
+} from 'react-router-dom';
 import Home from './pages/home/Home.jsx';
 import About from './pages/about/About.jsx';
 import Contact from './pages/contact/Contact.jsx';
 import ShopPage from './pages/shop/ShopPage.jsx';
-
+import ScrollToTop from './ScrollToTop.jsx';
 import 'sweetalert2/dist/sweetalert2.min.css';
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App/>,
+    path: '/',
+    element: <App />,
     children: [
       {
-        path: "/",
-        element: <Home/>
+        path: '/',
+        element: <Home />,
       },
       {
-        path: "/shop",
-        element: <ShopPage/>
+        path: '/shop',
+        element: <ShopPage />,
       },
       {
         path: '/about',
-        element: <About/>
+        element: <About />,
       },
       {
-        path: "/contact",
-        element: <Contact/>
-      }
-    ]
+        path: '/contact',
+        element: <Contact />,
+      },
+    ],
   },
 ]);
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
-  </StrictMode>,
-)
+    <RouterProvider router={router}>
+      {/* Move ScrollToTop inside RouterProvider */}
+      <ScrollToTop />
+    </RouterProvider>
+  </StrictMode>
+);
