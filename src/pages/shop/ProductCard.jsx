@@ -65,18 +65,7 @@ const ProductCard = ({ product }) => {
                 <h4 className="text-sm text-gray-500 dark:text-gray-400 mb-1 uppercase">{product.category}</h4>
                 <h3 className="font-semibold text-lg text-gray-800 dark:text-white mb-2">{product.name}</h3>
                 <Rating rating={product.rating} />
-                {/* <div className="mt-5 flex justify-between items-center">
-                    <p className="text-secondary dark:text-white font-bold text-lg">
-                        <sup>$</sup>
-                        <span>{product.price}</span>
-                    </p>
-                    <button
-                        className="bg-blue-500 hover:bg-blue-600 p-3 rounded-full text-white transition-colors duration-300"
-                        onClick={() => addToCart(product)}
-                    >
-                        <FiPlus className="text-xl" />
-                    </button>
-                </div> */}
+              
             </div>
         </div>
     );

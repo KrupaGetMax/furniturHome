@@ -5,6 +5,7 @@ import Products from '../shop/Products'
 import Expricences from './Expricences'
 import Materials from './Materials'
 import Testimonials from './Testimonials'
+import CompanySlider from './CompanySlider'
 
 
 
@@ -13,6 +14,7 @@ const Home = () => {
     <>
       <Hero />
       <ChooseUs />
+      {/* <CompanySlider/> */}
       <Products headline="Best Selling Product" />
       <Expricences/>
       <Materials/>

@@ -2,7 +2,7 @@ import React from 'react'
 import contactBgImg from "../../assets/contact-background.jpg"
 import Materials from '../home/Materials'
 import Testimonials from '../home/Testimonials'
-
+import ContactForm from './ContactForm'
 const Contact = () => {
   return (
     <section> 
@@ -12,10 +12,14 @@ const Contact = () => {
        style={{ backgroundImage: `url(${contactBgImg})` }}
      >
        <div className=''>
-       <h1 className="text-5xl font-bold">Contact</h1>
+       <h1 className="text-5xl font-bold">Contact With Us</h1>
        </div>
      </div>
+     {/* form */}
+     <ContactForm/>
+     {/* materials */}
      <Materials/>
+     {/* testimonials */}
      <Testimonials/>
    </section>
   )

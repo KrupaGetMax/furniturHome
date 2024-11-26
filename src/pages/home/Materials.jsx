@@ -14,9 +14,15 @@ const Materials = () => {
           Very serious materials for making furniture
         </h2>
         <p className="text-secondary dark:text-white mb-5 lg:w-2/3">
-          Because panto was very serious about designing furniture for our
-          environment, using a very expensive and famous capital but at a
-          relatively low price
+          The KEN CLPL patented by KEN TEXTURED VENEER are made with a unique
+          technology, which gives extreme flexibility while maintaining a
+          beautiful aesthetical surface. KEN CLPL Continuous Low Pressure
+          Laminates are available in several families: Sinrolam, Sineromet,
+          Sinerlac, Sinerolux, and all these families have different technical
+          features and are able to satisfy every application. The variety of
+          colours, wood imitation, metal effects, unicolor with matte and shiny
+          effects have been developed by our R&D department to align with the
+          new modern market tendencies.
         </p>
         <Button text="More Info" />
       </div>

@@ -9,11 +9,12 @@ import TooltipButton from '../../components/TooltipButton';
 const Hero = () => {
     const { isDarkMode, toggleTheme } = useContext(ThemeContext);
     return (
-        <section className={`relative h-screen bg-cover bg-center text-white  `} style={{ backgroundImage: `url(${bannerImg})` }}>
+        // <section className={`relative h-screen bg-cover bg-center text-white  `} style={{ backgroundImage: `url(${bannerImg})` }}>
+        <section className={`relative h-screen bg-cover bg-center text-black `} style={{ backgroundImage: `url(https://media.istockphoto.com/id/1158575634/photo/interior-with-armchair-and-coffee-table-3d-rendering.jpg?s=612x612&w=0&k=20&c=eBrIx3t7p5yElgACCtkJ2Z0gUCTfBfjF_tWPRHU6cmw=)`, }}>
 
             <div className='relative md:pt-48 pt-28 px-4 text-center md:w-1/2 mx-auto space-y-8'>
                 <h1 className="text-4xl lg:text-6xl lg:leading-tight leading-snug font-medium">Make your interior more minimalistic & modern</h1>
-                <p className='text-xl lg:w-1/2 mx-auto '>Turn your room with panto into a lot more minimalist and modern with ease and speed</p>
+                <p className='text-xl lg:w-1/2 mx-auto '>Turn your room with KENWUD into a lot more minimalist and modern with ease and speed</p>
 
                 {/* Search field with input and icon */}
                 <div className="relative inline-block z-30">
