@@ -5,18 +5,18 @@ import Navbar from './components/Navbar'
 import { ThemeProvider } from './context/ThemeContext'
 import { CartProvider } from './context/CartContext'
 import Footer from './components/Footer'
-
+import Layout from './Layout'
 function App() {
 
 
   return (
     <ThemeProvider>
       <CartProvider>
-        <Navbar />
+        
         <main className='min-h-screen'>
-          <Outlet />
+          <Layout />
         </main>
-        <Footer />
+        
       </CartProvider>
     </ThemeProvider>
   )

@@ -24,7 +24,7 @@ const Materials = () => {
           effects have been developed by our R&D department to align with the
           new modern market tendencies.
         </p>
-        <Button text="More Info" />
+       
       </div>
 
       <div className="md:w-1/2 grid grid-cols-2 md:grid-cols-3 md:items-end items-center ">

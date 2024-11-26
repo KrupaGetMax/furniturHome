@@ -21,7 +21,7 @@ const Expricences = () => {
           laminates) and grants laminates with high technical performances and
           low polluting impact.
         </p>
-        <Button text="More Info" />
+    
       </div>
     </section>
   );

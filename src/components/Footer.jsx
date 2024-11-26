@@ -90,7 +90,7 @@ const Footer = () => {
       {/* Top Section */}
       <img src={Logo} alt="YourCompany Logo" className="h-14 w-auto mb-4" />
 
-      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 ">
+      <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 md:gap-48 ">
         {/* Logo and Description */}
         <div className="md:col-span-2">
           <p className="text-sm mb-4">
@@ -133,7 +133,7 @@ const Footer = () => {
         </div>
 
         {/* Customer Care */}
-        {/* <div>
+        {/* <div className="hidden">
           <h3 className="text-lg font-semibold mb-4">Customer Care</h3>
           <ul className="space-y-2 text-sm">
             <li>
@@ -183,7 +183,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="mt-8 border-t border-gray-300 pt-4  text-sm">
         <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
-          <p>&copy; {new Date().getFullYear()} KENWED. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} KENWUD. All rights reserved.</p>
           <div className="flex space-x-4">
             <Link to="/" className="hover:text-primary transition">
               Terms & Conditions

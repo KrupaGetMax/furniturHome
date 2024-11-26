@@ -2,7 +2,15 @@ import React from "react";
 import aboutBgImg from "../../assets/about-background.jpg";
 import expriencesImg from "../../assets/expricences.png";
 import Button from "../../components/Button";
-
+import AboutOne from "../../assets/about/about-2.jpg"
+import AboutTwo from "../../assets/about/about-3.avif"
+import AboutThree from "../../assets/about/about-4.webp"
+import AboutFout from "../../assets/about/about-5.webp"
+import imgone from "../../assets/products/d-8.jpeg"
+import imgotwo from "../../assets/products/door-2.jpeg"
+import imgothree from "../../assets/products/b-4.jpeg"
+import imgofour from "../../assets/products/b-5.jpeg"
+import imgofive from "../../assets/products/d-3.jpeg"
 const About = () => {
   return (
     <section>
@@ -116,7 +124,7 @@ const About = () => {
             {/* Image Section */}
             <div className="md:w-1/2">
               <img
-                src={expriencesImg}
+                src={AboutThree}
                 alt="Kenwud Experience"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
               />
@@ -126,7 +134,7 @@ const About = () => {
             {/* Image Section */}
             <div className="md:w-1/2">
               <img
-                src={expriencesImg}
+                src={AboutOne}
                 alt="Kenwud Experience"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
               />
@@ -209,7 +217,7 @@ const About = () => {
             {/* Image Section */}
             <div className="md:w-1/2">
               <img
-                src={expriencesImg}
+                src={AboutTwo}
                 alt="Kenwud Experience"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
               />
@@ -222,7 +230,7 @@ const About = () => {
               <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-gray-50 h-auto md:h-full flex flex-col">
                 <div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                   <img
-                    src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129805.jpg?ga=GA1.1.1442135237.1725892430&semt=ais_hybrid"
+                    src={imgone}
                     alt="Cloud Solution Provider"
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   />
@@ -236,7 +244,7 @@ const About = () => {
               <div className="col-span-2 sm:col-span-1 md:col-span-2 bg-stone-50">
                 <div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 mb-4">
                   <img
-                    src="https://img.freepik.com/free-photo/chic-mid-century-modern-luxury-aesthetics-living-room-with-gray-velvet-couch-blue-rug_53876-132809.jpg?ga=GA1.1.1442135237.1725892430&semt=ais_hybrid"
+                    src={imgothree}
 
                     alt="Team colaboration section"
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
@@ -249,7 +257,7 @@ const About = () => {
                 <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
                   <div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                     <img
-                      src="https://img.freepik.com/premium-photo/grey-armchair-small-table-with-tablet_160139-558.jpg?ga=GA1.1.1442135237.1725892430&semt=ais_hybrid"
+                      src={imgofour}
                       alt="GetMax AI"
                       className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                     />
@@ -260,7 +268,7 @@ const About = () => {
                   </div>
                   <div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
                     <img
-                      src="https://img.freepik.com/free-photo/mid-century-modern-living-room-interior-design-with-monstera-tree_53876-129803.jpg?ga=GA1.1.1442135237.1725892430&semt=ais_hybrid"
+                      src={imgofive}
                       alt="GetMaax Trusted Partner"
                       className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                     />
@@ -275,7 +283,7 @@ const About = () => {
               <div className="col-span-2 sm:col-span-1 md:col-span-1 bg-sky-50 h-auto md:h-full flex flex-col">
                 <div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40 flex-grow">
                   <img
-                    src="https://img.freepik.com/premium-photo/bright-dining-room-contemporary-style-with-designer-dining-table-chairs-3d-rendering_295714-3236.jpg?ga=GA1.1.1442135237.1725892430&semt=ais_hybrid"
+                    src={imgotwo}
                     alt="GetMax Team "
                     className="absolute inset-0 h-full w-full object-cover group-hover:scale-105 transition-transform duration-500 ease-in-out"
                   />
