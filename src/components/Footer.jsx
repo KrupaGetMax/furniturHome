@@ -121,19 +121,19 @@ const Footer = () => {
             </li>
             <li>
               <Link to="/shop" className="hover:text-primary transition">
-                Services
+                Products
               </Link>
             </li>
             <li>
               <Link to="/contact" className="hover:text-primary transition">
-                Contact
+                Contact Us
               </Link>
             </li>
           </ul>
         </div>
 
         {/* Customer Care */}
-        <div>
+        {/* <div>
           <h3 className="text-lg font-semibold mb-4">Customer Care</h3>
           <ul className="space-y-2 text-sm">
             <li>
@@ -152,7 +152,7 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         {/* Social Media */}
         <div>

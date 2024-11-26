@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../components/Button";
-
+import { Link } from "react-router-dom";
 const ChooseUs = () => {
   return (
     <section className="section-container px-4 md:px-12">
@@ -14,7 +14,9 @@ const ChooseUs = () => {
             KENWUD, established in 2008, offers customer-focused, durable, and
             elegant furniture for home, office, and children's spaces.
           </p>
-          <Button text="More Info" />
+          <Link to="/contact">
+            <Button text="More Info" />
+          </Link>
         </div>
         <div>
           <h3 className="text-2xl font-semibold mb-3">Commitment to Quality</h3>
@@ -22,7 +24,9 @@ const ChooseUs = () => {
             KENWUD combines high-quality furniture with competitive pricing,
             constantly improving products, designs, and service.
           </p>
-          <Button text="More Info" />
+          <Link to="/contact">
+            <Button text="More Info" />
+          </Link>
         </div>
         <div>
           <h3 className="text-2xl font-semibold mb-3">Luxury facilities</h3>
@@ -31,7 +35,9 @@ const ChooseUs = () => {
             machinery and cutting-edge technology to meet international quality
             standards
           </p>
-          <Button text="More Info" />
+          <Link to="/contact">
+            <Button text="More Info" />
+          </Link>
         </div>
       </div>
     </section>

@@ -228,7 +228,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                   <h3 className="text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                    Cloud Solution Provider
+                    {/* Cloud Solution Provider */}
                   </h3>
                 </div>
               </div>
@@ -243,7 +243,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                   <h3 className=" text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                    Team Colaboration
+                    {/* Team Colaboration */}
                   </h3>
                 </div>
                 <div className="grid gap-4 grid-cols-2 sm:grid-cols-2 lg:grid-cols-2">
@@ -255,7 +255,7 @@ const About = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     <h3 className=" text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                      GetMax
+                      {/* GetMax */}
                     </h3>
                   </div>
                   <div className="group relative flex flex-col overflow-hidden rounded-lg px-4 pb-4 pt-40">
@@ -266,7 +266,7 @@ const About = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                     <h3 className="text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                      Trusted Partner
+                      {/* Trusted Partner */}
                     </h3>
                   </div>
                 </div>
@@ -281,7 +281,7 @@ const About = () => {
                   />
                   <div className="absolute inset-0 bg-gradient-to-b from-gray-900/25 to-gray-900/5"></div>
                   <h3 className="text-2xl font-medium text-white absolute top-0 left-0 p-4 xs:text-xl md:text-3xl">
-                    Team
+                    {/* Team */}
                   </h3>
                 </div>
               </div>
